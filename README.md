@@ -1,230 +1,149 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Student Journey Sharing App - README</title>
-</head>
-<body style="font-family: Arial, sans-serif; line-height: 1.6;">
-    
-    <h1>🚀 Student Journey Sharing App</h1>
-    <p><em>A platform where students create accounts, share their professional journey, explore others' journeys, and grow together.</em></p>
+# 🚀 Student Journey Sharing App
+*A platform where students create accounts, share their professional journey, explore others' journeys, and grow together.*
 
-    <hr>
+---
 
-    <h2>📘 Overview</h2>
-    <p>The <strong>Student Journey Sharing App</strong> is a mobile + backend platform designed for students to share their professional paths, achievements, and experiences. It allows users to create accounts, post their journeys, and view others’ posts for inspiration.</p>
-    <p>This project includes:</p>
-    <ul>
-        <li>📱 <strong>Android Mobile App</strong> built using Java + Retrofit + XML UI</li>
-        <li>🖥️ <strong>Spring Boot Backend</strong> with REST APIs</li>
-        <li>🛢️ <strong>MySQL Database</strong> using Spring Data JPA</li>
-        <li>🔐 <strong>JWT Authentication</strong> with Spring Security</li>
-    </ul>
+## 📘 Overview
+The **Student Journey Sharing App is a fronted + backend platform designed for students to share professional paths, achievements, and experiences.
 
-    <hr>
+This project includes:
 
-    <h2>🛠️ Tech Stack</h2>
+- 📱 **Android Mobile App** (Java + Retrofit + XML UI)
+- 🖥️ **Spring Boot Backend** (REST APIs)
+- 🛢️ **MySQL Database + JPA**
+- 🔐 **JWT Authentication + Spring Security**
 
-    <h3>📱 Frontend (Android App)</h3>
-    <ul>
-        <li>Android Studio</li>
-        <li>Java</li>
-        <li>Retrofit (API communication)</li>
-        <li>XML (UI design)</li>
-    </ul>
+---
 
-    <h3>🖥️ Backend</h3>
-    <ul>
-        <li>Spring Boot</li>
-        <li>Spring MVC</li>
-        <li>Spring JPA</li>
-        <li>Spring Security</li>
-        <li>JWT Authentication</li>
-        <li>RESTful API</li>
-    </ul>
+## 🛠️ Tech Stack
 
-    <h3>🛢️ Database</h3>
-    <ul>
-        <li>MySQL</li>
-    </ul>
+### 📱 Frontend (Android App)
+- Android Studio  
+- Java  
+- Retrofit  
+- XML UI  
 
-    <hr>
+### 🖥️ Backend (Spring Boot)
+- Spring Boot  
+- Spring MVC  
+- Spring Data JPA  
+- Spring Security  
+- JWT  
+- REST API  
 
-    <h2>✨ Features</h2>
+### 🛢️ Database
+- MySQL
 
-    <h3>👤 User Module</h3>
-    <ul>
-        <li>User Registration</li>
-        <li>User Login</li>
-        <li>Secure JWT-based Session Authentication</li>
-        <li>Profile Management</li>
-    </ul>
+---
 
-    <h3>📝 Journey Module</h3>
-    <ul>
-        <li>Create and share your professional journey</li>
-        <li>View journeys shared by other students</li>
-        <li>Read career paths, experiences, and stories</li>
-        <li>Search or filter journeys (optional)</li>
-    </ul>
+## ✨ Features
 
-    <h3>🔐 Security</h3>
-    <ul>
-        <li>JWT Token-based authentication</li>
-        <li>Password hashing</li>
-        <li>Secured API endpoints</li>
-        <li>Validation for safe inputs</li>
-    </ul>
+### 👤 User Module
+- User Registration  
+- User Login  
+- JWT-based Authentication  
+- Profile Management  
 
-    <hr>
+### 📝 Journey Module
+- Create and share professional journey  
+- View journeys from other students  
+- Read stories and experiences  
+- Search/filter journeys *(optional)* in future add
 
-    <h2>📱 Android App Functionality</h2>
-    <ul>
-        <li>User can create an account</li>
-        <li>Login using email and password</li>
-        <li>Post new journey details</li>
-        <li>View journey list from other students</li>
-        <li>Retrofit used for backend communication</li>
-        <li>Interactive, responsive UI using XML</li>
-        <li>Handles loading and error states</li>
-    </ul>
+### 🔐 Security
+- JWT token validation  
+- Secure password hashing  
+- Protected API endpoints  
 
-    <hr>
+---
 
-    <h2>🖥️ Backend Workflow (Spring Boot)</h2>
-    <ul>
-        <li>Handles REST API requests from Android app</li>
-        <li>Manages authentication using JWT + Spring Security</li>
-        <li>Stores user & journey data in MySQL</li>
-        <li>Uses Spring Data JPA for database operations</li>
-        <li>Serves JSON responses</li>
-    </ul>
+## 📱 Android App Functionality
+- Register and login  
+- Post journey details  
+- View journeys list  
+- Retrofit networking  
+- XML responsive UI  
+- Error + loading states  
 
-    <hr>
+---
 
-    <h2>📁 Project Structure</h2>
+## 🖥️ Backend Workflow (Spring Boot)
+- Handles REST API  
+- JWT authentication  
+- Stores data in MySQL  
+- JPA for DB operations  
+- JSON response output  
 
-    <h3>Backend (Spring Boot)</h3>
-    <pre>
+---
+
+## 📁 Project Structure
+
+### Backend
 src/
- ├── controller/
- ├── service/
- ├── repository/
- ├── entity/
- ├── security/
- ├── dto/
- └── config/
-    </pre>
-
-    <h3>Android App</h3>
-    <pre>
+├── controller/
+├── service/
+├── repository/
+├── entity/
+├── security/
+├── dto/
+└── config/
+### Android App
 app/
- ├── java/
- │    ├── activities/
- │    ├── adapters/
- │    ├── models/
- │    ├── network/
- │    └── utils/
- ├── res/
- │    ├── layout/
- │    ├── drawable/
- │    └── values/
- └── AndroidManifest.xml
-    </pre>
+├── java/
+│ ├── activities/
+│ ├── adapters/
+│ ├── models/
+│ ├── network/
+│ └── utils/
+├── res/
+│ ├── layout/
+│ ├── drawable/
+│ └── values/
+└── AndroidManifest.xml
 
-    <hr>
 
-    <h2>🧪 API Endpoints (Examples)</h2>
+---
 
-    <h3>Authentication</h3>
-    <table border="1" cellpadding="5">
-        <tr>
-            <th>Method</th>
-            <th>Endpoint</th>
-            <th>Description</th>
-        </tr>
-        <tr>
-            <td>POST</td>
-            <td>/api/auth/register</td>
-            <td>Register new user</td>
-        </tr>
-        <tr>
-            <td>POST</td>
-            <td>/api/auth/login</td>
-            <td>User login + JWT token</td>
-        </tr>
-    </table>
+## 🧪 API Endpoints
 
-    <h3>Journey</h3>
-    <table border="1" cellpadding="5">
-        <tr>
-            <th>Method</th>
-            <th>Endpoint</th>
-            <th>Description</th>
-        </tr>
-        <tr>
-            <td>POST</td>
-            <td>/api/journey</td>
-            <td>Create new journey</td>
-        </tr>
-        <tr>
-            <td>GET</td>
-            <td>/api/journey</td>
-            <td>Get all journeys</td>
-        </tr>
-        <tr>
-            <td>GET</td>
-            <td>/api/journey/{id}</td>
-            <td>Get single journey</td>
-        </tr>
-    </table>
+### 🔐 Authentication
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/api/auth/register` | Register new user |
+| POST | `/api/auth/login` | User login + JWT |
 
-    <hr>
+### 📝 Journey
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/api/journey` | Create new journey |
+| GET  | `/api/journey` | Get all journeys |
+| GET  | `/api/journey/{id}` | Get single journey |
 
-    <h2>🚀 How to Run the Project</h2>
+---
+Update `application.properties` with your MySQL username & password.
 
-    <h3>Backend</h3>
-    <pre>
-git clone &lt;repo-url&gt;
-cd backend
-mvn install
-mvn spring-boot:run
-    </pre>
+### Android App
+1. Open Android Studio  
+2. Import project  
+3. Update Retrofit base URL  
+4. Run on emulator or device  
 
-    <h3>Database Setup</h3>
-    <pre>
-CREATE DATABASE student_journey;
-    </pre>
-    <p>Update <strong>application.properties</strong> with your MySQL credentials.</p>
+---
 
-    <h3>Android App</h3>
-    <ol>
-        <li>Open Android Studio</li>
-        <li>Import the project</li>
-        <li>Update Retrofit base URL</li>
-        <li>Run on emulator or device</li>
-    </ol>
+## 🔐 JWT Authentication Flow
+1. User logs in  
+2. Backend validates credentials  
+3. Backend generates JWT  
+4. Android stores JWT in SharedPreferences  
+5. Client sends token in headers  
+6. Backend validates token on each request  
 
-    <hr>
+---
 
-    <h2>🔐 JWT Authentication Flow</h2>
-    <ol>
-        <li>User logs in → Backend validates credentials</li>
-        <li>Backend generates JWT token</li>
-        <li>Android stores token in SharedPreferences</li>
-        <li>API calls include <code>Authorization: Bearer &lt;token&gt;</code></li>
-        <li>Backend validates token on each request</li>
-    </ol>
+## 🙌 Contributions
+Contributions, issues, and feature requests are welcome!
 
-    <hr>
+---
 
-    <h2>🙌 Contributions</h2>
-    <p>Contributions, issues, and feature requests are welcome!</p>
-
-    <hr>
-
-    <h2>📄 License</h2>
-    <p>This project is licensed under the MIT License.</p>
-
-</body>
-</html>
+## 📄 License
+This project is licensed under the **MIT License**.
