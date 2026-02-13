@@ -4,7 +4,7 @@
 ---
 
 ## 📘 Overview
-The **Student Journey Sharing App is a fronted + backend platform designed for students to share professional paths, achievements, and experiences.
+The Student Journey Sharing App is a fronted + backend platform designed for students to share professional paths, achievements, and experiences.
 
 This project includes:
 
