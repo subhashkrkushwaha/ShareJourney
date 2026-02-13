@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">StudnetShareJourney</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contents">My first year in college was challenging yet exciting My first year in college was challenging yet exciting  My first year in college was challenging yet exciting My first year in college was challenging yet excitingMy first year in college was challenging yet exciting
+                My first year in college was challenging yet exciting.</string>
+
+     <string name="enterUserName">Enter User Name</string>
+     <string name="enterPassword">Enter Password</string>
+     <string name="enterCPassword">Enter Confirm Password</string>
+     <string name="signIn">Sign in</string>
+     <string name="signUp">Sign Up</string>
+</resources>
