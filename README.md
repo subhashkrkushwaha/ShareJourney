@@ -138,7 +138,11 @@ Update `application.properties` with your MySQL username & password.
 5. Client sends token in headers  
 6. Backend validates token on each request
 _ _ 
-   ![image singup](https://github.com/subhashkrkushwaha/ShareJourney/blob/ac6be2979cba41d23fc7ca187dd7cc94408421b6/s%20sign%20up.jpeg)
+   ![image singup](https://github.com/subhashkrkushwaha/ShareJourney/blob/ac6be2979cba41d23fc7ca187dd7cc94408421b6/s%20sign%20up.jpeg)  ![image login](https://github.com/subhashkrkushwaha/ShareJourney/blob/ef0c43866b40289ee798b03ceba2088744af7cce/slogin.jpeg)
+  
+   ![image show post]()
+   ![image psot ]()
+   ![image setting]()
 ---
 
 ## 🙌 Contributions
