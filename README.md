@@ -136,8 +136,9 @@ Update `application.properties` with your MySQL username & password.
 3. Backend generates JWT  
 4. Android stores JWT in SharedPreferences  
 5. Client sends token in headers  
-6. Backend validates token on each request  
-
+6. Backend validates token on each request
+_ _ 
+   ![image singup](https://github.com/subhashkrkushwaha/ShareJourney/blob/ac6be2979cba41d23fc7ca187dd7cc94408421b6/s%20sign%20up.jpeg)
 ---
 
 ## 🙌 Contributions
